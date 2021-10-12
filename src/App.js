@@ -37,26 +37,28 @@ function App() {
   /*For using makeStyles */
   const classes = useStyles();
 
-  const [post, setPost] = React.useState(null);
-  const [post2, setPost2] = React.useState(null);
+  const [animeData, setAnimeData] = React.useState(null);
+  const [imageLink, setImageLink] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
-  const [imageLoading, setImageLoading] = React.useState(true);
 
   useEffect(() => {
     axios
       .request(baseURL)
       .then(function (response) {
-        setPost(response.data);
+        setAnimeData(response.data);
 
         axios
           .request(imageURL + `/${response.data.anime}&limit=1`)
           .then(function (resp) {
             const item = resp.data.results;
             const imageLink = item.map((it) => it.image_url).toString();
-            setPost2(imageLink);
+
+            setImageLink(imageLink);
           });
-        setImageLoading(false);
-        setLoading(false);
+
+        setTimeout(() => {
+          setLoading(false);
+        }, 2000);
       })
       .catch(function (error) {
         console.error(error);
@@ -73,14 +75,17 @@ function App() {
       <Container maxWidth="lg">
         <CssBaseline />
         <Typography variant="h3" align="center">
-          {post.anime}{" "}
+          {animeData.anime}{" "}
         </Typography>
         <div className={classes.imageWrapper}>
           <Card className={classes.card}>
-            {imageLoading === true ? (
-              "Loading..."
+            {imageLink === null ? (
+              <Typography variant="h4">
+                {" "}
+                API doesn't have an image for this anime{" "}
+              </Typography>
             ) : (
-              <CardMedia className={classes.cardMedia} image={`${post2}`} />
+              <CardMedia className={classes.cardMedia} image={`${imageLink}`} />
             )}
           </Card>
         </div>
@@ -94,10 +99,10 @@ function App() {
           </Button>
         </Box>
         <Typography variant="h3" align="center">
-          {post.character}
+          {animeData.character}
         </Typography>
         <Typography variant="h6" align="center" gutterBottom>
-          "{post.quote}"
+          "{animeData.quote}"
         </Typography>
       </Container>
       <Footer />
