@@ -1,3 +1,12 @@
+# React Anime Random Quotes Project
+
+## Link to project: https://eugenehan94.github.io/React-Anime-Random-Quotes-Project/
+
+Developed this project using React and Material UI
+
+Fetched two different APIs for the image and the quotes, using axios
+
+---------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
