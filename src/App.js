@@ -20,8 +20,6 @@ import {
   Typography,
   CssBaseline,
   Container,
-  Card,
-  CardMedia,
   Button,
   Box,
 } from "@material-ui/core";
@@ -70,7 +68,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className={classes.container}>
       <Navbar />
       <Container maxWidth="lg">
         <CssBaseline />
@@ -78,24 +76,25 @@ function App() {
           {animeData.anime}{" "}
         </Typography>
         <div className={classes.imageWrapper}>
-          <Card className={classes.card}>
+          <Box>
             {imageLink === null ? (
-              <Typography variant="h4">
-                {" "}
-                API doesn't have an image for this anime{" "}
-              </Typography>
+              <img
+                src={`${imageLink}`}
+                alt=" API doesn't have an image for this anime"
+              />
             ) : (
-              <CardMedia className={classes.cardMedia} image={`${imageLink}`} />
+              <img src={`${imageLink}`} alt="anime" />
             )}
-          </Card>
+          </Box>
         </div>
         <Box textAlign="center">
           <Button
             onClick={() => window.location.reload(false)}
             variant="contained"
+            color="primary"
             disableElevation
           >
-            Refresh
+            New Quote
           </Button>
         </Box>
         <Typography variant="h3" align="center">

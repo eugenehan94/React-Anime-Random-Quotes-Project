@@ -7,7 +7,7 @@ const Navbar = () => {
   const classes = useStyles();
   return (
     <div className={classes.navbar}>
-      <AppBar position="static" className={classes.navbarContainer}>
+      <AppBar position="static">
         <Toolbar className={classes.navbarToolbar}>
           <Typography variant="h5">Anime Random Quotes</Typography>
         </Toolbar>

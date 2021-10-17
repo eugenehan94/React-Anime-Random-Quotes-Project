@@ -1,31 +1,22 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
+  container: {
+    height: "100%",
+    width: "100%",
+  },
   imageWrapper: {
     display: "flex",
     justifyContent: "center",
     width: "100%",
-    height: "100vh",
+    minHeight: "358px",
     marginBottom: "2rem",
   },
-  card: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-    height: "100%",
-  },
-  cardMedia: {
-    height: "700px",
-    width: "500px",
-    objectFit: "contain",
-  },
+
   navbar: {
     marginBottom: "2rem",
   },
-  navbarContainer: {
-    backgroundColor: "#3B3B3B",
-  },
+
   navbarToolbar: {
     justifyContent: "center",
   },
