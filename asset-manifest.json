@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Anime-Random-Quotes-Project/static/css/main.a9dfdc92.chunk.css",
-    "main.js": "/React-Anime-Random-Quotes-Project/static/js/main.23b69f9d.chunk.js",
-    "main.js.map": "/React-Anime-Random-Quotes-Project/static/js/main.23b69f9d.chunk.js.map",
-    "runtime-main.js": "/React-Anime-Random-Quotes-Project/static/js/runtime-main.0e5ce991.js",
-    "runtime-main.js.map": "/React-Anime-Random-Quotes-Project/static/js/runtime-main.0e5ce991.js.map",
-    "static/js/2.804d5751.chunk.js": "/React-Anime-Random-Quotes-Project/static/js/2.804d5751.chunk.js",
-    "static/js/2.804d5751.chunk.js.map": "/React-Anime-Random-Quotes-Project/static/js/2.804d5751.chunk.js.map",
-    "static/js/3.411295a3.chunk.js": "/React-Anime-Random-Quotes-Project/static/js/3.411295a3.chunk.js",
-    "static/js/3.411295a3.chunk.js.map": "/React-Anime-Random-Quotes-Project/static/js/3.411295a3.chunk.js.map",
+    "main.css": "/React-Anime-Random-Quotes-Project/static/css/main.2d176c85.chunk.css",
+    "main.js": "/React-Anime-Random-Quotes-Project/static/js/main.77db0df1.chunk.js",
+    "main.js.map": "/React-Anime-Random-Quotes-Project/static/js/main.77db0df1.chunk.js.map",
+    "runtime-main.js": "/React-Anime-Random-Quotes-Project/static/js/runtime-main.ad78b1dc.js",
+    "runtime-main.js.map": "/React-Anime-Random-Quotes-Project/static/js/runtime-main.ad78b1dc.js.map",
+    "static/js/2.f1227932.chunk.js": "/React-Anime-Random-Quotes-Project/static/js/2.f1227932.chunk.js",
+    "static/js/2.f1227932.chunk.js.map": "/React-Anime-Random-Quotes-Project/static/js/2.f1227932.chunk.js.map",
+    "static/js/3.2d690512.chunk.js": "/React-Anime-Random-Quotes-Project/static/js/3.2d690512.chunk.js",
+    "static/js/3.2d690512.chunk.js.map": "/React-Anime-Random-Quotes-Project/static/js/3.2d690512.chunk.js.map",
     "index.html": "/React-Anime-Random-Quotes-Project/index.html",
-    "static/css/main.a9dfdc92.chunk.css.map": "/React-Anime-Random-Quotes-Project/static/css/main.a9dfdc92.chunk.css.map",
-    "static/js/2.804d5751.chunk.js.LICENSE.txt": "/React-Anime-Random-Quotes-Project/static/js/2.804d5751.chunk.js.LICENSE.txt"
+    "static/css/main.2d176c85.chunk.css.map": "/React-Anime-Random-Quotes-Project/static/css/main.2d176c85.chunk.css.map",
+    "static/js/2.f1227932.chunk.js.LICENSE.txt": "/React-Anime-Random-Quotes-Project/static/js/2.f1227932.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e5ce991.js",
-    "static/js/2.804d5751.chunk.js",
-    "static/css/main.a9dfdc92.chunk.css",
-    "static/js/main.23b69f9d.chunk.js"
+    "static/js/runtime-main.ad78b1dc.js",
+    "static/js/2.f1227932.chunk.js",
+    "static/css/main.2d176c85.chunk.css",
+    "static/js/main.77db0df1.chunk.js"
   ]
 }
