@@ -6,6 +6,11 @@ Developed this project using React and Material UI
 
 Fetched two different APIs for the image and the quotes, using axios
 
+
+## Anime Quotes Demo
+![AnimeQuotesDemo](https://user-images.githubusercontent.com/59939048/140669085-eb846f9f-4410-4c08-8ab0-1c5d34be57b8.gif)
+
+
 ---------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
